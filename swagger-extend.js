@@ -22,7 +22,7 @@ var swaggerExtend={
         }, 2000);
     },
     loadResource(){
-        this.loadStyles("/js/swagger.css");
+        this.loadStyles("https://cdn.jsdelivr.net/gh/HGthecode/swagger-extend/swagger-extend.css");
         this.loadStyles("https://cdn.jsdelivr.net/npm/highlight.js@11.6.0/styles/atom-one-dark.css");
         setTimeout(() => {
             this.loadScript("//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js");
